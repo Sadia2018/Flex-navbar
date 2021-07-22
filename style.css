@@ -6,7 +6,38 @@
 
 .nav{
     background-color: gray;
+    color: #ffffff;
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
-.ul{
-    align-items: left;
+.nav-links{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: Roboto;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-title {
+    margin-left: 20px;
+    font-family: Roboto;
+}
+
+.btn {
+    height:35px ;
+    width: 100px;
+    color:#ffffff;
+    background-color: rgb(100, 100, 235);
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+
 }
